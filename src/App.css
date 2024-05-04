@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+.maincontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.analogclock{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  background-color: #61dafb;
+  
+}
+.hand {
+  position: absolute;
+  background-color: black;
+}
+.hour-hand {
+  width: 4px;
+  height: 50px;
+  top: 30%;
+  left: 50%;
+  transform-origin: bottom center;
+}
+.minute-hand {
+  width: 3px;
+  height: 70px;
+  top: 20%;
+  left: 50%;
+  transform-origin: bottom center;
+}
+
+.second-hand {
+  width: 1px;
+  height: 80px;
+  top: 15%;
+  left: 50%;
+  transform-origin: bottom center;
+}
